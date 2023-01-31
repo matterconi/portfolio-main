@@ -722,9 +722,8 @@ body {
     .passions {
         display: flex;
         justify-content: center;
-    }
-    .passion {
-        flex-grow: 0;
+        flex-wrap: wrap;
+        overflow: hidden;
     }
     .passion::before {
         transform: none;
